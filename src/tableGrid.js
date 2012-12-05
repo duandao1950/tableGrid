@@ -1,12 +1,11 @@
-/*!
- * jQuery UI tableGrid 1.0.0
+/*
+ * tableGrid
+ * https://github.com/Ysudo/tableGrid
  *
- *
- * Depends:
- *   jquery.ui.core.js
- *   jquery.ui.widget.js
- *   jquery.ui.button.js
+ * Copyright (c) 2012 Yun Sudong
+ * Licensed under the MIT license.
  */
+
 (function( $, undefined ) {
 
 $.widget( "ui.tableGrid", {
@@ -534,7 +533,7 @@ $.widget( "ui.tableGrid", {
         this.element.find(".ui-tbgrid-viewwidth").css({
             width: this.options.viewWidth
         })
-        if ( jQuery.util.ua.ie67 ){
+        if ( !!($.browser.msie && $.browser.version < 8) ){
             this.element.find(".ui-tbgrid-viewwidth").css({
                 height: mainHeight + 50
             })

@@ -12,6 +12,7 @@ In your web page:
 
 ```html
 <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="style/style.css">
 <script src="jquery.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script src="dist/tableGrid.min.js"></script>
@@ -27,7 +28,7 @@ jQuery(function($) {
 _(Coming soon)_
 
 ## Examples
-_(Coming soon)_
+[base][http://jsfiddle.net/yunsudong/CZgAg/]
 
 ## Release History
 _(Nothing yet)_
