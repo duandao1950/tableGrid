@@ -28,7 +28,11 @@ jQuery(function($) {
 _(Coming soon)_
 
 ## Examples
-[base][http://jsfiddle.net/yunsudong/CZgAg/]
+[base][baselink]
+
+[baselink]: http://jsfiddle.net/yunsudong/CZgAg/
+
+
 
 ## Release History
 _(Nothing yet)_
